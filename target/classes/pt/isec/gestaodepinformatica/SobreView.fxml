@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="SobreController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt.isec.gestaodepinformatica.Controlador.SobreController">
+   <children>
+      <ImageView fitHeight="104.0" fitWidth="104.0" layoutX="12.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gpspng.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="104.0" layoutX="133.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@andre.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="104.0" layoutX="249.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@nuno.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="104.0" layoutX="369.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ruben.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="114.0" fitWidth="104.0" layoutX="485.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rafaela.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="23.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Samuel Tavares" />
+      <Text layoutX="149.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="André Lopes" />
+      <Text layoutX="260.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nuno Honório" />
+      <Text layoutX="379.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rúben Almeida" />
+      <Text layoutX="493.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rafaela Carvalho" />
+      <Button fx:id="RegressarId" layoutX="482.0" layoutY="361.0" mnemonicParsing="false" onAction="#onRegressar" prefHeight="25.0" prefWidth="101.0" text="Regressar" />
+      <Text layoutX="21.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O projeto tem como intenção organizar os funcionários de forma a aumentar o seu desempenho na &#10;empresa, melhorando a comunicação entre administrador e funcionário. " wrappingWidth="558.330078125" />
+   </children>
+</AnchorPane>

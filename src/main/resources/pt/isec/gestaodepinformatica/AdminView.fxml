@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="550.0" minWidth="950.0" prefHeight="550.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt.isec.gestaodepinformatica.Controlador.AdminController">
+
+
+    <Button fx:id="adicionarBtn" layoutX="48.0" layoutY="503.0" mnemonicParsing="false" onAction="#onAdicionarFuncionarioClick" prefHeight="33.0" prefWidth="168.0" text="Adicionar Funcionário" />
+    <Button fx:id="removerBtn" layoutX="404.0" layoutY="503.0" mnemonicParsing="false" onAction="#onEliminarFuncionarioClick" prefHeight="33.0" prefWidth="168.0" text="Remover Funcionário" />
+      <Button layoutX="844.0" layoutY="503.0" mnemonicParsing="false" onAction="#onSairClick" prefHeight="33.0" prefWidth="92.0" text="Sair" />
+      <TableView fx:id="tabelaFuncionarios" layoutX="48.0" layoutY="95.0" prefHeight="393.0" prefWidth="854.0">
+        <columns>
+         <TableColumn fx:id="usernameCol" prefWidth="75.0" text="Username" />
+          <TableColumn fx:id="nomeCol" prefWidth="191.19997787475586" text="Nome Completo" />
+            <TableColumn fx:id="servicoCol" prefWidth="104.00007629394531" text="Serviço" />
+            <TableColumn fx:id="contratoCol" prefWidth="70.4000244140625" text="Contrato" />
+            <TableColumn fx:id="emailCol" prefWidth="112.0" text="E-mail" />
+            <TableColumn fx:id="telefoneCol" prefWidth="76.0" text="Telefone" />
+            <TableColumn fx:id="salarioCol" prefWidth="67.199951171875" text="Salário" />
+            <TableColumn fx:id="dataCol" prefWidth="121.60003662109375" text="Data de Nascimento" />
+            <TableColumn fx:id="generoCol" minWidth="7.99993896484375" prefWidth="65.5999755859375" text="Género" />
+            <TableColumn fx:id="moradaCol" minWidth="9.0" prefWidth="112.0" text="Morada" />
+        </columns>
+      </TableView>
+      <TextField fx:id="pesquisaTextfield" layoutX="48.0" layoutY="49.0" prefHeight="34.0" prefWidth="854.0" promptText="Pesquisar Funcionário" />
+   <Button fx:id="editarBtn" layoutX="226.0" layoutY="503.0" mnemonicParsing="false" onAction="#onEditarFuncionarioClick" prefHeight="33.0" prefWidth="168.0" text="Editar Funcionário" />
+
+</AnchorPane>
